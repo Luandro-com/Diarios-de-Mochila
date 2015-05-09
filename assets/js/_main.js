@@ -58,12 +58,15 @@ var Roots = {
         $("#wrapper").show().animate({marginTop: 0});
         $(".intro-container").slideUp().animate({marginTop: "-100%"});
       }
-      var scrollAmount = 0;
-      var userScroll = $(".intro-container").scroll(function () {
-        scrollAmount +=1;
-        if (scrollAmount > 6) {
-          console.log("FUCK");
-        }
+      var lastScrollTop = 6;
+      $(window).scroll(function(event){
+         var st = $(this).scrollTop();
+         if (st > lastScrollTop){
+             console.log("UP");
+         } else {
+            console.log("DOWN");
+         }
+         lastScrollTop = st;
       });
       $(".intro-arrow").click(function (){
         exitIntro();
