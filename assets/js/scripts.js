@@ -2149,20 +2149,19 @@ var Roots = {
   // Home page
   home: {
     init: function() {
+      $(document).ready(function () {
+        setTimeout(function () {
+          $(".intro-arrow-container").fadeIn();
+          $(".intro-poesia-container").fadeIn();
+        }, 2600);
+        setTimeout(function () {
+          $(".intro-page-logo").fadeIn();
+        }, 1200);
+      });
       function exitIntro() {
         $("#wrapper").show().animate({marginTop: 0});
         $(".intro-container").slideUp().animate({marginTop: "-100%"});
       }
-      var lastScrollTop = 6;
-      $(window).scroll(function(event){
-         var st = $(this).scrollTop();
-         if (st > lastScrollTop){
-             console.log("UP");
-         } else {
-            console.log("DOWN");
-         }
-         lastScrollTop = st;
-      });
       $(".intro-arrow").click(function (){
         exitIntro();
       });

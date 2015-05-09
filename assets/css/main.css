@@ -6230,13 +6230,8 @@ figure.alignnone {
   -webkit-background-size: cover;
           background-size: cover;
 }
-.intro-arrow-container {
-  text-align: center;
-  position: absolute;
-  bottom: 5%;
-  cursor: pointer;
-}
 .intro-poesia-container {
+  display: none;
   position: absolute;
   left: 5%;
   top: 20%;
@@ -6245,6 +6240,7 @@ figure.alignnone {
   line-height: 100%;
 }
 .intro-page-logo {
+  display: none;
   position: absolute;
   bottom: 12%;
   right: 0;
@@ -6259,8 +6255,39 @@ figure.alignnone {
   width: auto;
   margin-bottom: 15px;
 }
+.intro-arrow-container {
+  display: none;
+  text-align: center;
+  position: absolute;
+  bottom: 8%;
+  cursor: pointer;
+  -webkit-animation: bounce 1300ms infinite;
+}
 .intro-arrow {
   font-size: 4em;
+}
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 5px;
+  }
+  25%,
+  75% {
+    bottom: 15px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .intro-poesia-container {
+    top: 2%;
+  }
+  .intro-page-logo {
+    bottom: 25%;
+  }
 }
 .main {
   position: relative;
