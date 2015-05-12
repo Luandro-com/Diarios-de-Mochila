@@ -14,12 +14,12 @@
     <div id="page-content-wrapper">
       <div class="main-container container">
           <div class="row">
-            <div class="col-md-12">
+            <!-- <div class="col-md-12">
               <div class="col-md-4">
-                <!-- PORTFOLIO -->
+                <!-- PORTFOLIO
                 <?php dynamic_sidebar( 'menu_top_1' ); ?>
-              </div>
-              <div class="col-md-8">
+              </div> -->
+              <div class="col-md-12">
                 <!-- PUBLICIDADE -->
                 <div class="publicidade">
                   <?php 
