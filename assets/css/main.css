@@ -6216,11 +6216,8 @@ figure.alignnone {
     margin-left: 10px;
   }
 }
-#wrapper {
-  display: none;
-  margin-top: 100%;
-}
 .intro-container {
+  display: none;
   color: #fff;
   height: 103%;
   width: 100%;

@@ -54,6 +54,7 @@ var Roots = {
   // Home page
   home: {
     init: function() {
+      $(".intro-container").show();
       $("#wrapper").hide().css("margin-top", '100%');
       // JavaScript to be fired on the home page
       $(document).ready(function () {
