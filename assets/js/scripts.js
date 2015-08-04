@@ -2101,7 +2101,7 @@
  * replace the dash with an underscore when adding it to the object below.
  *
  * .noConflict()
- * The routing is enclosed within an anonymous function so that you can 
+ * The routing is enclosed within an anonymous function so that you can
  * always reference jQuery with $, even when in .noConflict() mode.
  *
  * Google CDN, Latest jQuery
@@ -2110,7 +2110,7 @@
  * ======================================================================== */
 
 (function($) {
-// Use this variable to set up the common and page specific functions. If you 
+// Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
   // All pages
@@ -2149,23 +2149,28 @@ var Roots = {
   // Home page
   home: {
     init: function() {
+      // JavaScript to be fired on the home page
       $(document).ready(function () {
         setTimeout(function () {
+          //Fade in Logo
+          setTimeout(function () {
+          $(".intro-page-logo").fadeIn();
+        }, 1200);
+          //Fade in sentence and action arrow
           $(".intro-arrow-container").fadeIn();
           $(".intro-poesia-container").fadeIn();
         }, 2600);
-        setTimeout(function () {
-          $(".intro-page-logo").fadeIn();
-        }, 1200);
       });
+      //Scrolls down to main content
       function exitIntro() {
+        //Show main content
         $("#wrapper").show().animate({marginTop: 0});
-        $(".intro-container").slideUp().animate({marginTop: "-100%"});
+        //Slide up, and hide Intro Container
+        $(".intro-container").slideUp().animate({marginTop: "-100%"}).hide();
       }
       $(".intro-arrow").click(function (){
         exitIntro();
       });
-      // JavaScript to be fired on the home page
     }
   },
   // About us page, note the change from about-us to about_us.

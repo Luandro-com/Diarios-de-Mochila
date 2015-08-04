@@ -1,12 +1,8 @@
 <div class="intro-container container">
  	<div class="row">
 		<div class="col-md-4 intro-poesia-container">
-			<h2>DO AMOROSO ESQUECIMENTO</h2>
-			<p>Eu agora - que desfecho!</p>
-			<p>Já nem penso mais em ti...</p>
-			<p>Mas será que nunca deixo</p>
-			<p>De lembrar que te esqueci?</p>
-			<h4>Mario Quintana - Espelho Mágico</h4>
+			<h3>Ninguém que possa escrever bem pode escrever em paz</h3>
+			<h4>Charles Bukowski</h4>
 		</div>
 		<div class="col-md-3 intro-page-logo">
 		        <?php if ( get_theme_mod( 'm1_logo' ) ) : ?>
@@ -22,6 +18,6 @@
 		</div>
 		<div class="col-xs-12 intro-arrow-container">
 			<span class="intro-arrow glyphicon glyphicon-circle-arrow-down"></span>
-		</div>	
+		</div>
  	</div>
 </div>
