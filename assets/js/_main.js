@@ -54,30 +54,31 @@ var Roots = {
   // Home page
   home: {
     init: function() {
-      $(".intro-container").show();
-      $("#wrapper").hide().css("margin-top", '100%');
-      // JavaScript to be fired on the home page
-      $(document).ready(function () {
-        setTimeout(function () {
-          //Fade in Logo
-          setTimeout(function () {
-          $(".intro-page-logo").fadeIn();
-        }, 1200);
-          //Fade in sentence and action arrow
-          $(".intro-arrow-container").fadeIn();
-          $(".intro-poesia-container").fadeIn();
-        }, 2600);
-      });
-      //Scrolls down to main content
-      function exitIntro() {
-        //Show main content
-        $("#wrapper").show().animate({marginTop: 0});
-        //Slide up, and hide Intro Container
-        $(".intro-container").slideUp().animate({marginTop: "-100%"}).hide();
-      }
-      $(".intro-arrow").click(function (){
-        exitIntro();
-      });
+      console.log("home");
+      // $(".intro-container").show();
+      // $("#wrapper").hide().css("margin-top", '100%');
+      // // JavaScript to be fired on the home page
+      // $(document).ready(function () {
+      //   setTimeout(function () {
+      //     //Fade in Logo
+      //     setTimeout(function () {
+      //     $(".intro-page-logo").fadeIn();
+      //   }, 1200);
+      //     //Fade in sentence and action arrow
+      //     $(".intro-arrow-container").fadeIn();
+      //     $(".intro-poesia-container").fadeIn();
+      //   }, 2600);
+      // });
+      // //Scrolls down to main content
+      // function exitIntro() {
+      //   //Show main content
+      //   $("#wrapper").show().animate({marginTop: 0});
+      //   //Slide up, and hide Intro Container
+      //   $(".intro-container").slideUp().animate({marginTop: "-100%"}).hide();
+      // }
+      // $(".intro-arrow").click(function (){
+      //   exitIntro();
+      // });
     }
   },
   // About us page, note the change from about-us to about_us.

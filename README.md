@@ -15,13 +15,19 @@ npm install -g grunt
 
 ```
 
-Run grunt for development
+Install npm and bower dependencies:
 
 ```
-grunt
+npm install && bower install
+
 ```
 
-Run for build
+Run watch for development
+
+```
+grunt watch
+```
+Run build for deployment
 
 ```
 grunt build
