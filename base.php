@@ -5,7 +5,6 @@
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
     </div>
   <![endif]-->
-  <?php get_template_part('templates/intro'); ?>
   <div id="wrapper">
      <?php
         do_action('get_header');
@@ -22,13 +21,13 @@
               <div class="col-md-12">
                 <!-- PUBLICIDADE -->
                 <div class="publicidade">
-                  <?php 
-                    if (function_exists(display_campaign)) { 
-                    display_campaign(1); 
-                    } 
+                  <?php
+                    if (function_exists(display_campaign)) {
+                    display_campaign(1);
+                    }
                   ?>
                   <?php echo adrotate_ad(1); ?>
-                </div>  
+                </div>
               </div>
               <div class="col-md-12"><h6 class="apresenta">apresenta</h6></div>
               <div class="topbar">
