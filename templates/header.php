@@ -32,7 +32,7 @@
     </div>
     <div class="menu-footer">
         <h4 class="menu-redacao"><a href="<?php echo esc_url(home_url('/')); ?>/do-faceblog/"><span class="glyphicon glyphicon-pencil"></span> A Equipe</a></h4>
-        <a href="mailto:contato@diariosdemochila.com?Subject=Contato%20Diarios%20de%20Mochila"><h5>contato@diariosdemochila.com</h5></a>
+        <a href="mailto:mochiladediarios@gmail.com?Subject=Contato%20Diarios%20de%20Mochila"><h5>mochiladediarios@gmail.com</h5></a>
         <a class="luandro-sig" href="http://luandro.com" target="_blank"><span class="glyphicon glyphicon-flash"></span> Desenvolvido por Luandro <span class="glyphicon glyphicon-flash"></span></a>
       </div>
   </div>
