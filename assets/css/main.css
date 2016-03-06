@@ -6562,6 +6562,9 @@ input:-moz-placeholder {
   height: 80px;
   text-align: center;
 }
+.publicidade img {
+  max-width: 100%;
+}
 .apresenta {
   color: grey;
   text-align: center;
