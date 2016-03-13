@@ -6581,7 +6581,6 @@ input:-moz-placeholder {
 }
 .sidebar-container {
   margin: 0 auto;
-  width: 60%;
 }
 @media (min-width: 1020px) {
   .sidebar-container {
@@ -6593,7 +6592,11 @@ input:-moz-placeholder {
 }
 .sidebar-nav {
   width: 300px;
-  margin-left: -70px;
+}
+@media (min-width: 768px) {
+  .sidebar-nav {
+    margin-left: -70px;
+  }
 }
 .entry-title a {
   color: black;
@@ -6809,6 +6812,11 @@ input:-moz-placeholder {
   width: 100%;
   margin: 50px auto;
   text-align: center;
+}
+@media (min-width: 480px) {
+  .menu-footer {
+    margin-left: 0;
+  }
 }
 .luandro-sig {
   font-size: 0.6em;

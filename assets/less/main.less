@@ -134,7 +134,7 @@ input:-moz-placeholder { color:#E3FAEE; }
 }
 .sidebar-container {
 	margin: 0 auto;
-	width: 60%;
+	// width: 60%;
 }
 @media(min-width:1020px) {
 	.sidebar-container {
@@ -145,9 +145,15 @@ input:-moz-placeholder { color:#E3FAEE; }
 	width: 128%;
 }
 .sidebar-nav {
-	width: 300px;
-	margin-left: -70px;
+  width: 300px;
+  // margin-left: -150px;
 }
+@media(min-width:768px) {
+  .sidebar-nav {
+    margin-left: -70px;
+  }
+}
+
 .entry-title a {
 	color: black;
 	font-size: 1em;
@@ -385,6 +391,13 @@ input:-moz-placeholder { color:#E3FAEE; }
 	width: 100%;
 	margin: 50px auto;
 	text-align: center;
+  // margin-left: -150px;
+
+}
+@media(min-width:480px) {
+  .menu-footer {
+    margin-left: 0;
+  }
 }
 .luandro-sig {
 	font-size: 0.6em;
