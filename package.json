@@ -1,8 +1,8 @@
 {
-  "name": "roots",
-  "version": "7.0.1",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "http://roots.io",
+  "name": "diariosdemochila-theme",
+  "version": "1.7.1",
+  "author": "Luandro Vieira <luandro@gmail.com>",
+  "homepage": "http://luandro.com",
   "repository": {
     "type": "git",
     "url": "git://github.com/roots/roots.git"
